@@ -323,3 +323,8 @@ Princetonska arhitektura:
 dandanes ne ena ne druga nista direktno v uporabi.
 Danes se rabista predpomnilnika **cache**:
 ![alt text](image-11.png)
+
+### pomnilniške besede
+GP je zaporedje pom besed.
+**dolžina pm. besede** je st pom. celic v njej
+vsaka lokacija ima svoj naslov
