@@ -148,4 +148,4 @@ ker je treba stevilo dati v 16 register moramo narediti **sign extention**. To n
 
 $$\space 1011 \space 1100 \space 1000 = 1111 \space 1011 \space 1100 \space 1000$$
 
-za konec se pretvorimo v hex: 0xFFFF F B C 8
+za konec se pretvorimo v hex: F B C 8
