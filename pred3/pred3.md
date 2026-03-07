@@ -15,9 +15,9 @@ pri + je treba odmik odsteti za - pa pristeti
 
 ## eniski komplement
 
-$$
+```math
     V(b) = \sum_{i=0}^{n-1}b_i2^i - b_{n-1}(2^n - 1)
-$$
+```
 $b_i$ je predznak
 pozitivna stevila enako kot pri PV
 neg st dobimo iz poz z invertiranjem vseh bitov $\equiv 2^n - 1$ (same enice)
@@ -44,7 +44,7 @@ mnozenje in div sta zahtevnejsi operaciji
 obseg stevil v fiksni vejici za dolocene probleme je premajhen
 - potrebovali bi zelo velika ali zelo majhna stevila
 - znanstvena notacija omogoca krajsi zapis
-- npr. $1*10^{18}$ namesto 1000000000000000000
+- npr. $1 \cdot 10^{18}$ namesto 1000000000000000000
 - st. lahko zapisemo kot $m \times r^e$
 - m je mantisa in r je baza 
 - ``s sšre,omkamke, exšpmemta vejica plava vzdovzs mantise``
@@ -64,7 +64,7 @@ enojna natancnost (single presision) 32B
 - 8b exponent z odmikon 127
 - 23b mantisa m (7-mestna dec natancnsot)
 - normalizirana vrednost
-- obseg $\pm 1,18*10^{-38}, \pm 3,40 *10^{38}$ (v norm obliki)
+- obseg $\pm 1,18\cdot 10^{-38}, \pm 3,40 \cdot 10^{38}$ (v norm obliki)
 - aka float
 
 
@@ -77,11 +77,11 @@ enojna natancnost (single presision) 32B
 
 11b exponent e z odmikom 1023
 52b mantisa m (16b-mestna dec natancnost)
-normaliziran vrednost: $(-1)^5 * 1m, m*2^{E-1023}$
-obseg: $\pm 2,22*10^{-308}; \pm 1,80 *10^{308}$ (v norm. obliki)
+normaliziran vrednost: $(-1)^5 \cdot 1m, m \cdot 2^{E-1023}$
+obseg: $\pm 2,22 \cdot 10^{-308}; \pm 1,80 \cdot 10^{308}$ (v norm. obliki)
 
 primer st2:
-$2 = +1.0 * 2^1$
+$2 = +1.0 \cdot 2^1$
 $S = 0, m = 0; e = 1$
 enojna: $E = 3 + 127 = 128 = 10000000$
 dvojna: $E = e + 1023 = 1024 = 1000000010$
