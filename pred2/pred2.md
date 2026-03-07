@@ -77,7 +77,7 @@ Tonenbaunm (mayhaps narobe napisan) 1984
 2. software
 3. firmware
 
->[!INFO]
+>[!NOTE]
 > brez software-a ni hardware-a in brez hardware-a ni software-a
 >![zope](image-2.png)
 
