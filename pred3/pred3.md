@@ -89,3 +89,6 @@ dvojna: $E = e + 1023 = 1024 = 1000000010$
 ### addition v fp
 - Sestevanje in odstrevanje v fp
   - prvo st
+
+## dodatni bit
+**Varovalni bit** je potreben, saj vsota lahkgo za eno mesto daljsa od operanodv
